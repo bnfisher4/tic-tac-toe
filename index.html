@@ -12,18 +12,18 @@
 <body>
     <header>TIC-TAC-TOE</header>
     <h1>Let's Play!</h1>
-    <h4>X's Turn</h4>
-    <div class="game-board">
-            <div class="cell" id="1">X</div>
-            <div class="cell" id="2"></div>
-            <div class="cell" id="3">O</div>
-            <div class="cell" id="4"></div>
-            <div class="cell" id="5"></div>
-            <div class="cell" id="6"></div>
-            <div class="cell" id="7"></div>
-            <div class="cell" id="8"></div>
-            <div class="cell" id="9"></div>
-      </div>
+    <h4 id="message">X's Turn</h4>
+    <main id="game-board">
+            <div data-index= "0" class="cell bottom">X</div>
+            <div data-index= "1" class="cell bottom left right"></div>
+            <div data-index= "2" class="cell bottom">O</div>
+            <div data-index= "3" class="cell"></div>
+            <div data-index= "4" class="cell left right"></div>
+            <div data-index= "5" class="cell"></div>
+            <div data-index= "6" class="cell top"></div>
+            <div data-index= "7" class="cell top left right"></div>
+            <div data-index= "8" class="cell top"></div>
+      </main>
       <section id="reset">
         <button>Reset Game</button>
       </section>

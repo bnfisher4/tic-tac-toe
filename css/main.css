@@ -19,7 +19,7 @@ button {
     font-size: 20px;
 }
 
-.game-board {
+#game-board {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 5px;
