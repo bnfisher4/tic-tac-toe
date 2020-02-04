@@ -2,17 +2,26 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 header {
     text-align: center;
     font-size: 60px;
+    color: #6d0404;
 }
 
-h1{
+body {
     text-align: center;
 }
 
-section {
-    text-align: center;
+h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+h3 {
+    color: #2a0269;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 button {
@@ -27,20 +36,39 @@ button {
 
 .cell {
     height: 150px;
-    border: 3px solid black;
+    border: 3px solid white;
     font-size: 100px;
     font-weight: 700;
-    color: black;
+    color: #6d0404;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+div:hover {
+    background-color: #9e9e9eb9;
+}
+
+button {
+    background-color: #6d0404;
+    color: black;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 .top {
-    border-top: 2px solid gray;}
+    border-top: 4px solid #2a0269;
+    height: 150px;
+}
 .bottom {
-    border-bottom: 2px solid gray;}
+    border-bottom: 4px solid #2a0269;
+    height: 150px;
+}
 .left {
-    border-left: 2px solid gray;}
+    border-left: 4px solid #2a0269;
+    height: 150px;
+}
 .right {
-    border-right: 2px solid gray;}
+    border-right: 4px solid #2a0269;
+    height: 150px;
+}
