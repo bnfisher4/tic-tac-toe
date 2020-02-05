@@ -90,6 +90,7 @@ function render() {
     } else if (winner) {
         messageEl.textContent = `${PLAYERS[winner]} WINS!`
     };
+    
 
     // What data do we use to draw the game board?
     // Render transfers the state of the app to the DOM
