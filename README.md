@@ -12,6 +12,7 @@ A game where people can take turns with X's and O's on a 3x3 grid. The user who 
 
 
 ## Wireframes and Screenshots
-
+![Tic-Tac-Toe](https://i.imgur.com/wuQGLxg.jpg)
 
 ## Future Enhancements
+- Will include strikethrough of the winner pattern.
